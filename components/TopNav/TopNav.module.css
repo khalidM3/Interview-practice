@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    font-size: 64px;
+    line-height: 87px;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.logo img {
+    margin-right: 30px;
+}
+
+.menu {
+    text-align: center;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+    max-width: 1226px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.menu a {
+    font-weight: 400;
+    line-height: 33px;
+    text-decoration: none;
+    color: black;
+    margin: 10px 20px;
+}
+
+.menu a:hover {
+    color: #696969;
+    /* border-bottom: 1px solid #ACFFFF; */
+    text-decoration-line: underline;
+    text-decoration-color:  #ACFFFF;;
+}
+
+.divider {
+    max-width: 90%;
+    height: 4px;
+    background: #F0F0F0;
+    border-radius: 5px;
+    display: flex;
+    text-align: center;
+    width: 1226px;
+    height: 2px;
+    margin: 0 auto;
+}
+
+
+
+.secondaryNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.secondaryNav img {
+    margin: 10px;
+    width: 20px;
+}
+
+.secondaryMenuLinkContainer {
+    display: flex;
+    flex-direction: column;
+}
+.secondaryMenuLink {
+    color: black;
+    padding: 10px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    font-weight: 400;
+}
+
+.secondaryMenuLink:hover {
+    font-weight: 500;
+}

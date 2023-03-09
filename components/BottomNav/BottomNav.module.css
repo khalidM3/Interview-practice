@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    background-color: #4E1C90;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.link {
+    color: white;
+    margin: 0px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: space-between;
+}
